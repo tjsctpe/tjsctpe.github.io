@@ -1,0 +1,8 @@
+.bundle/
+_site/
+__pycache__/
+.jekyll-metadata
+Gemfile.lock
+Dockerfile
+docker-compose.yml
+.sass-cache/
