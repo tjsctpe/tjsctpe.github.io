@@ -3,10 +3,10 @@ navbar_entries:
     url: /
 
   - title: 入會相關
-    url: apply
+    url: /apply
 
   - title: Q&A
-    url: qa
+    url: /qa
 
 project_entries:
   - title: 迎新/社課
