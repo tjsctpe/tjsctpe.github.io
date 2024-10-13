@@ -10,27 +10,27 @@ navbar_entries:
 
 project_entries:
   - title: 迎新/社課
-    url: activity/welcome
+    url: /activity/welcome
     desc: 舉辦多樣化的活動讓大家分組活動
 
   - title: 語言交換
-    url: activity/exchange
+    url: /activity/exchange
     desc: 練習中文/日文口說的好時機
 
   - title: 分科會
-    url: activity/discussion
+    url: /activity/discussion
     desc: 討論台日文化的差異性，並進行投影片分享
 
   - title: 演講會
-    url: activity/address
+    url: /activity/address
     desc: 邀請台灣或日本文化有關的講者跟社員經驗分享
 
   - title: 一起食/桌遊
-    url: activity/eat-together
+    url: /activity/eat-together
     desc: 一起吃飯或一起玩桌遊，讓彼此輕鬆的交流
 
   - title: 忘年會/期末派對
-    url: activity/party
+    url: /activity/party
     desc: 學期末舉辦的大派對，一起用食物飲料遊戲慶祝學期的結束
 
 
