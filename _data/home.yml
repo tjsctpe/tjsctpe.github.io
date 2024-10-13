@@ -1,6 +1,6 @@
 navbar_entries:
   - title: 首頁
-    url: /
+    url: /index
 
   - title: 入會相關
     url: /apply
