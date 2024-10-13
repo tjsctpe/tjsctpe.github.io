@@ -21,8 +21,23 @@ layout: default
 
 <header>
 {% if site.theme_config.show_navbar == true %}
-  {% include horizontal_list.html collection=site.data.home.navbar_entries %}
-  <div class="dashed"></div>
+<ul class="horizontal-list">
+    {% for item in site.data.home.navbar_entries %}
+        <li>
+        <a href="{{ item.url }}">
+            {{ item.title }}
+        </a>
+        &nbsp;&nbsp;
+        </li>
+    {% endfor %}
+    <li>
+        <a href="https://tjsctpe.github.io/jp">
+        日本語
+        </a>
+        &nbsp;&nbsp;
+        </li>
+</ul>
+<div class="dashed"></div>
 {% endif %}
 
   <h1>{{ site.title }}</h1>

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "一起食／桌遊"
+url-jp: "https://tjsctpe.github.io/jp/activity/eat-together"
 ready: true
 ---
 

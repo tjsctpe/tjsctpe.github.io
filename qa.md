@@ -1,5 +1,6 @@
 ---
 layout: post
+url-jp: "https://tjsctpe.github.io/jp/qa"
 title: Q&A
 ---
 \

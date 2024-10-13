@@ -8,9 +8,6 @@ navbar_entries:
   - title: Q&A
     url: qa
 
-  - title: 日本語
-    url: https://tjsctpe.github.io/jp
-
 project_entries:
   - title: 迎新/社課
     url: activity/welcome

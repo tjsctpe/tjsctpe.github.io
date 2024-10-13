@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "分科會"
+url-jp: "https://tjsctpe.github.io/jp/activity/discussion"
 ready: true
 ---
 

@@ -5,7 +5,22 @@ layout: default
 <!-- <a href="{{ "/" | relative_url }}">{{ site.theme_config.back_home_text }}</a> -->
 <header>
     {% if site.theme_config.show_navbar == true %}
-    {% include horizontal_list.html collection=site.data.home.navbar_entries %}
+    <ul class="horizontal-list">
+        {% for item in site.data.home.navbar_entries %}
+            <li>
+            <a href="{{ item.url }}">
+                {{ item.title }}
+            </a>
+            &nbsp;&nbsp;
+            </li>
+        {% endfor %}
+        <li>
+            <a href="{{ page.url-jp }}">
+            日本語
+            </a>
+            &nbsp;&nbsp;
+            </li>
+    </ul>
     <div class="dashed"></div>
     {% endif %}
 </header>
