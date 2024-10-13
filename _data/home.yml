@@ -1,36 +1,41 @@
 navbar_entries:
-  - title: about
-    url: about
+  - title: 首頁
+    url: /
 
-  - title: blog
-    url: blog
+  - title: 入會相關
+    url: apply
+
+  - title: Q&A
+    url: qa
+
+  - title: 日本語
+    url: https://tjsctpe-jp.github.io
 
 project_entries:
-  - title: Project 1
-    url: overview-post
-    desc: This is an example project, configured in _data/home.yml
+  - title: 迎新/社課
+    url: activity/迎新
+    desc: 舉辦多樣化的活動讓大家分組活動
 
-  - title: Project 2
-    url: overview-post
-    desc: Projects are shown in card layout
+  - title: 語言交換
+    url: activity/語言交換
+    desc: 練習中文/日文口說的好時機
 
-  - title: Project 3
-    url: overview-post
-    desc: You can control visibility from _config.yml file
+  - title: 分科會
+    url: activity/分科會
+    desc: 討論台日文化的差異性，並進行投影片分享
 
-  - title: Project 4
-    url: overview-post
-    desc: This project uses highlight markup, configured in _data/home.yml
-    highlight: WIP
+  - title: 演講會
+    url: activity/演講會
+    desc: 邀請台灣或日本文化有關的講者跟社員經驗分享
 
-  - title: Project 5
-    url: overview-post
-    desc: Moonwalk also has horizontal list (used in header and footer)
-    highlight: WIP
+  - title: 一起食/桌遊
+    url: activity/一起食
+    desc: 一起吃飯或一起玩桌遊，讓彼此輕鬆的交流
 
-  - title: Project 6
-    url: overview-post
-    desc: It also has a scalable vertical list (in case you need it)
+  - title: 忘年會/期末派對
+    url: activity/忘年會
+    desc: 學期末舉辦的大派對，一起用食物飲料遊戲慶祝學期的結束
+
 
 
 misc_entries:

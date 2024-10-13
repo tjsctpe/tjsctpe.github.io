@@ -1,6 +1,23 @@
 ---
 layout: default
 ---
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    i {
+      font-size: 24px; /* Icon size */
+    }
+
+    a {
+      margin-right: 15px; /* Spacing between icons */
+      text-decoration: none; /* Remove underline */
+    }
+
+    a:last-child {
+      margin-right: 0; /* No extra margin after the last icon */
+    }
+  </style>
+</head>
 
 <header>
 {% if site.theme_config.show_navbar == true %}
@@ -15,6 +32,28 @@ layout: default
 </header>
 
 {{ content }}
+
+<body>
+  <!-- Instagram -->
+  <a href="https://www.instagram.com/tjsc.tpe/" target="_blank">
+    <i class="fab fa-instagram"></i>
+  </a>
+
+  <!-- Facebook -->
+  <a href="https://www.facebook.com/tjsc.tpe" target="_blank">
+    <i class="fab fa-facebook"></i>
+  </a>
+
+  <!-- Email -->
+  <a href="mailto:tjsc.tpe20@gmail.com">
+    <i class="fas fa-envelope"></i>
+  </a>
+</body>
+
+{% if site.theme_config.show_summary == true %}
+  <h2>{{ site.theme_config.home.title_summary }}</h2>
+  {% include summary.html %}
+{% endif %}
 
 {% if site.theme_config.show_projects == true %}
   <h2>{{ site.theme_config.home.title_projects }}</h2>
