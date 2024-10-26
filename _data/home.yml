@@ -17,13 +17,9 @@ project_entries:
     url: /activity/exchange
     desc: 練習中文/日文口說的好時機
 
-  - title: 分科會
-    url: /activity/discussion
-    desc: 討論台日文化的差異性，並進行投影片分享
-
-  - title: 演講會
-    url: /activity/address
-    desc: 邀請台灣或日本文化有關的講者跟社員經驗分享
+  - title: 分科會/演講會
+    url: /activity/academic
+    desc: 台日的學術性活動，分科會在上學期，演講會在下學期
 
   - title: 一起食/桌遊
     url: /activity/eat-together
@@ -33,6 +29,9 @@ project_entries:
     url: /activity/party
     desc: 學期末舉辦的大派對，一起用食物飲料遊戲慶祝學期的結束
 
+  - title: 社遊
+    url: /activity/trip
+    desc: 當日來回或兩天一夜的社團旅行
 
 
 misc_entries:

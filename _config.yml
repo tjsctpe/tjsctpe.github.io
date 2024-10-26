@@ -1,4 +1,4 @@
-title: 台灣日本學生交流會🇹🇼🇯🇵 (網頁開發中)
+title: 台灣日本學生交流會🇹🇼🇯🇵
 # author: Abhinav Saxena
 # url: https://www.abhinavsaxena.com/moonwalk # root address of the site
 # description: > # description of the site (multiple lines allowed)
@@ -60,3 +60,5 @@ exclude:
   - _posts/
   - LICENSE
   - moonwalk.gemspec
+  - Dockerfile
+  - docker-compose.yml
